@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Sprites>
+  <boomBooster path="objects/boomBooster/" start="idle">
+    <Center />
+    <Loop id="idle" path="booster" delay="0.1" frames="0-4"/>
+    <Loop id="inside" path="booster" delay="0.05" frames="5-8"/>
+    <Anim id="burst" path="booster" delay="0.08" frames="9-17"/>
+  </boomBooster>
+  <destroy_refill path="objects/destroyRefill/" start="idle">
+    <Center />
+    <Anim path="appear" delay="0.03" id = "appear"/>
+    <Loop path="idle" delay="0.1" id = "idle"/>
+  </destroy_refill>
+  <dash_wave path="dash/wave/" start="idle">
+    <Origin y="32" x="16"/>
+    <Loop path="wave_" id="idle" delay="0.06" />
+  </dash_wave>
+</Sprites>

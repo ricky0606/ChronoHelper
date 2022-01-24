@@ -1,0 +1,16 @@
+entities.ChronoHelper/BoomBooster.placements.name.boomBooster=Boom Booster (Chrono Helper)
+
+entities.ChronoHelper/ShatterRefill.placements.name.shatterRefill=Shatter Refill (Chrono Helper)
+entities.ChronoHelper/ShatterRefill.attributes.description.oneUse=If checked, the refill will not respawn after being collected.
+
+entities.ChronoHelper/ShatterSpinner.placements.name.shatterSpinner=Shatter Spinner (Chrono Helper)
+entities.ChronoHelper/ShatterSpinner.attributes.description.attachToSolid=Whether the spinner is attached to a solid object.
+entities.ChronoHelper/ShatterSpinner.attributes.description.tint=The color of the spinner.
+entities.ChronoHelper/ShatterSpinner.attributes.description.Persistent=Whether the spinner will remain destroyed after reloading the room.
+
+entities.ChronoHelper/LevelResetZone.placements.name.levelResetZone=Level Reset Zone (Chrono Helper)
+
+entities.ChronoHelper/PersistentFallingBlock.placements.name.persistentFallingBlock=Persistent Falling Block (Chrono Helper)
+entities.ChronoHelper/PersistentFallingBlock.attributes.description.climbFall=After a delay, the block will physically fall down until it comes into contact with another block.
+entities.ChronoHelper/PersistentFallingBlock.attributes.description.tiletype=Changes the visual appearance of the falling block.
+entities.ChronoHelper/PersistentFallingBlock.attributes.description.behind=Whether the block should visually be further behind in the scene or not.
